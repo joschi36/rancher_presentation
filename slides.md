@@ -44,7 +44,7 @@ rancher/server </pre>
 
 ## Demo
  - Centos 7 - Digital Ocean
- - <a href="http://192.241.251.89:8080/static/infrastructure/hosts" target=new>demo</a>
+ - <a href=":8080/static/infrastructure/hosts" target=new>demo</a>
 ---
 
 ##Future of Rancher?
