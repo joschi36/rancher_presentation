@@ -30,6 +30,8 @@
 ---
 
 ## Deploy Rancher?
+ - Use any OS that support Docker
+ - Prefer RancherOS/CoreOS/Atomic
  - Single command server deployment.
    <pre> docker run -d -p 8080:8080 --restart=always --name rancher-server 
 rancher/server </pre>
@@ -41,7 +43,8 @@ rancher/server </pre>
 ---
 
 ## Demo
-
+ - Centos 7 - Digital Ocean
+ - <a href="http://192.241.251.89:8080" target=new>demo</a>
 ---
 
 ##Future of Rancher?
