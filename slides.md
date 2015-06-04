@@ -14,7 +14,7 @@
 ## Docker Adoption Problem
  1. Applications built for containers
  - Container orchestration
- - Network space consistancy
+ - Network space consistency
 
   Rancher Solves #2, #3!
 
