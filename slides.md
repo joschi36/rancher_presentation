@@ -13,8 +13,8 @@
 
 ## Docker Adoption Problem
  1. Applications built for containers
- - Container orchestration
- - Network space consistency
+ 2. Container orchestration
+ 3. Network space consistency
 
   Rancher Solves #2, #3!
 
@@ -43,8 +43,9 @@ rancher/server </pre>
 ---
 
 ## Demo
- - Centos 7 - Digital Ocean
+ - CoreOS - Google Compute Engine
  - <a href=":8080/static/infrastructure/hosts" target=new>demo</a>
+ - $500 credit for GCE (https://cloud.google.com/compute/) use code "docker2015"
 ---
 
 ##Future of Rancher?
