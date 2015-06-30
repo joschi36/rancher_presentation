@@ -1,4 +1,4 @@
-## Rancher - Not just for cattle anymore!
+# Rancher - Not just for cattle anymore!
 
 ---
 
@@ -11,7 +11,13 @@
 
 ---
 
-## Docker Adoption Problem
+## This talk is :
+ 1. Background
+ 2. Demos
+
+---
+
+## Docker Adoption Problems :
  1. Applications built for containers
  2. Container orchestration
  3. Network space consistency
@@ -21,7 +27,7 @@
 ---
 
 ## What is Rancher?
- - "Simple, elegant tools for managing Docker in production"
+## "Simple, elegant tools for managing Docker in production"
  - gui/api for running docker at scale.
  - Docker Orchestration
  - IPSEC network overlay
@@ -29,11 +35,11 @@
 
 ---
 
-## Deploy Rancher?
+## Deploy Rancher :
  - Use any OS that supports Docker
  - Prefer RancherOS/CoreOS/Atomic
  - Single command server deployment.
-   <pre> docker run -d -p 8080:8080 --restart=always --name rancher-server 
+   <pre> docker run -d -p 8080:8080 --restart=always --name rancher-server
 rancher/server </pre>
  - Single command agent deployent <-- curled form api.
    <pre> docker run -d --privileged -v /var/run/docker.sock:/var/run/docker.sock
@@ -42,22 +48,22 @@ rancher/server </pre>
 
 ---
 
-## Demo
+## Demo :
  - CoreOS - Google Compute Engine
  - <a href=":8080/static/infrastructure/hosts" target=new>demo</a>
  - $500 credit for GCE (https://cloud.google.com/compute/) use code "docker2015"
 ---
 
-##Future of Rancher?
+##Future of Rancher
  - Self scaling services.
  - LDAP authentication.
+ - Storage overlay.
  - Self contained deployments.
 
 ---
 
-## Learn more?
+## Learn more
  - Rancher : <a href="http://rancher.com/rancher-io/" target=new>rancher.com/rancher-io</a>
  - RancherOS : <a href="http://rancher.com/rancher-os/" target=new>rancher.com/rancher-os</a>
  - Youtube : <a href="https://www.youtube.com/channel/UCh5Xtp82q8wjijP8npkVTBA" target=new>Rancher Labs Channel</a>
  - Presentation : <a href="https://github.com/clemenko/rancher_presentation" target=new>github.com/clemenko/rancher_presentation</a>
- - DigitalOcean/Tugboat scripts : <a href="https://github.com/clemenko/tugboat-digitalocean-rancher" target=new>github.com/clemenko/tugboat-digitalocean-rancher</a>
